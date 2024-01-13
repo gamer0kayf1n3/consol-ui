@@ -204,3 +204,16 @@ span.content {
     height: 14px;
     flex-shrink: 0;
 }
+
+.social-button {
+    width: 100%;
+    display: block;
+    padding: 5px 0;
+    margin: 4px 0;
+    text-decoration: none;
+    flex-shrink: 0;
+    text-align: center;
+    background: #D9D9D9;
+    color: #000;
+    border-radius: 100px;
+}
