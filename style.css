@@ -111,7 +111,8 @@ hr {
     font-weight: 300;
     line-height: normal;
     margin: 7px 0;
-    display: block;
+    display: flex;
+    gap: 3px;
 }
 
 .two-col {
@@ -197,4 +198,9 @@ a.content {
 }
 span.content {
     display: inline;
+}
+*.content img {
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
 }
